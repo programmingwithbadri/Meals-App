@@ -3,10 +3,9 @@ import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading';
 import MealsNavigator from './navigation/MealsNavigator';
 import { createStore, combineReducers } from 'redux';
-import mealsReducer from './store/reducers  ';
+import mealsReducer from './store/reducers';
 import { Provider } from 'react-redux';
 
-useScreens();
 
 const rootReducer = combineReducers({
   meals: mealsReducer
